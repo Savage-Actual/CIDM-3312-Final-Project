@@ -1,38 +1,65 @@
 ﻿@page
-@model IndexModel
+@model CIDM_3312_Final_Project.Pages.IndexModel
+
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Halo Weapon Sales";
 }
 
-<div class="container mt-5">
+<h1 class="mb-4">Welcome to Halo Weapon Sales</h1>
 
-    <div class="text-center mb-4">
-        <h1 class="display-4">UNSC Arms Depot</h1>
-        <p class="lead">Browse a collection of weapons and manufacturers from across the Halo universe.</p>
-    </div>
-
-    <div class="row">
-        <div class="col-md-6">
-            <div class="card text-white bg-primary mb-3">
-                <div class="card-header">Weapons Catalog</div>
-                <div class="card-body">
-                    <h5 class="card-title">View All Weapons</h5>
-                    <p class="card-text">Browse all available weapons, including Assault Rifles, Needlers, and more.</p>
-                    <a href="/Weapons" class="btn btn-light">Go to Weapons</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="card text-white bg-success mb-3">
-                <div class="card-header">Manufacturers</div>
-                <div class="card-body">
-                    <h5 class="card-title">View Manufacturers</h5>
-                    <p class="card-text">Explore the organizations behind the weapons, from Misriah Armory to Assembly Forges.</p>
-                    <a href="/Manufacturers" class="btn btn-light">Go to Manufacturers</a>
-                </div>
+<div id="featuredCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+    <div class="carousel-inner">
+@for (int i = 0; i < Model.FeaturedWeapons.Count; i++)
+{
+    var weapon = Model.FeaturedWeapons[i];
+    <div class="carousel-item @(i == 0 ? "active" : "")">
+        <div class="d-flex justify-content-center align-items-center" style="height:300px; background-color: #e9ecef;">
+            <div class="text-center">
+                <h2>@weapon.Name</h2>
+                <p>Type: @weapon.WeaponType</p>
+                <p>Damage: @weapon.DamageRating</p>
+                <p>Manufacturer: @weapon.Manufacturer?.Name</p>
             </div>
         </div>
     </div>
-
+}
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#featuredCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#featuredCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
 </div>
 
+<div class="row">
+    <div class="col-md-4 mb-3">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">View Weapons</h5>
+                <p class="card-text">Browse all available weapons in the arsenal.</p>
+                <a class="btn btn-primary" href="/Weapons">Weapons</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-3">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">View Manufacturers</h5>
+                <p class="card-text">See weapon manufacturers and their details.</p>
+                <a class="btn btn-primary" href="/Manufacturers">Manufacturers</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-3">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Search Weapons</h5>
+                <p class="card-text">Find weapons by name using search and sorting.</p>
+                <a class="btn btn-primary" href="/Weapons">Search</a>
+            </div>
+        </div>
+    </div>
+</div>
