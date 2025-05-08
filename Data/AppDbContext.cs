@@ -17,14 +17,12 @@ namespace CIDM_3312_Final_Project.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            // Seed Manufacturers
             modelBuilder.Entity<Manufacturer>().HasData(
                 new Manufacturer { ManufacturerID = 1, Name = "Misriah Armory", Faction = "UNSC", PlanetOfOrigin = "Earth", YearFounded = 2160, ReputationRating = 4.5M },
                 new Manufacturer { ManufacturerID = 2, Name = "Assembly Forges", Faction = "Covenant", PlanetOfOrigin = "High Charity", YearFounded = 2100, ReputationRating = 4.8M },
                 new Manufacturer { ManufacturerID = 3, Name = "Weapon Systems Tech Co.", Faction = "Brutes", PlanetOfOrigin = "Doisac", YearFounded = 2200, ReputationRating = 4.2M }
             );
 
-            // Seed Weapons
             modelBuilder.Entity<Weapon>().HasData(
                 new Weapon { WeaponID = 1, Name = "Assault Rifle", WeaponType = "Rifle", DamageRating = 300, AmmoType = "7.62mm", Price = 1500M, StockQuantity = 50, ManufacturerID = 1 },
                 new Weapon { WeaponID = 2, Name = "Magnum", WeaponType = "Pistol", DamageRating = 200, AmmoType = "12.7mm", Price = 800M, StockQuantity = 75, ManufacturerID = 1 },
