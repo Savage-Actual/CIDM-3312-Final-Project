@@ -8012,11 +8012,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\CIDM-3312-Final-Project.csproj",
+      "projectUniqueName": "c:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\CIDM-3312-Final-Project.csproj",
       "projectName": "CIDM-3312-Final-Project",
-      "projectPath": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\CIDM-3312-Final-Project.csproj",
+      "projectPath": "c:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\CIDM-3312-Final-Project.csproj",
       "packagesPath": "C:\\Users\\wpean\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\obj\\",
+      "outputPath": "c:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\wpean\\AppData\\Roaming\\NuGet\\NuGet.Config"

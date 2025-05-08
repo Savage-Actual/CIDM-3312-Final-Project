@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CIDM-3312-Final-Project.2p5tis8901.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2p5tis8901"},{"Name":"integrity","Value":"sha256-FsQ4buJUnyZKRqAD9PtnmTsFeTMjv78ETuk4gGZaWA0="},{"Name":"label","Value":"_content/CIDM-3312-Final-Project/CIDM-3312-Final-Project.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1141"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022FsQ4buJUnyZKRqAD9PtnmTsFeTMjv78ETuk4gGZaWA0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 21:47:00 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1141"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022FsQ4buJUnyZKRqAD9PtnmTsFeTMjv78ETuk4gGZaWA0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 08 May 2025 20:03:53 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CIDM-3312-Final-Project/CIDM-3312-Final-Project.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CIDM-3312-Final-Project.2p5tis8901.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-FsQ4buJUnyZKRqAD9PtnmTsFeTMjv78ETuk4gGZaWA0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1141"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022FsQ4buJUnyZKRqAD9PtnmTsFeTMjv78ETuk4gGZaWA0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 21:47:00 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1141"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022FsQ4buJUnyZKRqAD9PtnmTsFeTMjv78ETuk4gGZaWA0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 08 May 2025 20:03:53 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CIDM-3312-Final-Project/css/site.b9sayid5wm.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>

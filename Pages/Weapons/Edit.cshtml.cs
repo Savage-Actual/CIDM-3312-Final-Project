@@ -23,6 +23,11 @@ namespace CIDM_3312_Final_Project.Pages.Weapons
 
         public SelectList ManufacturerOptions { get; set; }
 
+        public void PopulateManufacturers()
+        {
+            ManufacturerOptions = new SelectList(_context.Manufacturers, "ManufacturerID", "Name", Weapon?.ManufacturerID);
+        }
+
         public async Task<IActionResult> OnGetAsync(int? id)
         {
             if (id == null)
@@ -37,16 +42,16 @@ namespace CIDM_3312_Final_Project.Pages.Weapons
                 return NotFound();
             }
 
-            ManufacturerOptions = new SelectList(_context.Manufacturers, "ManufacturerID", "Name");
-
+            PopulateManufacturers();
             return Page();
         }
 
         public async Task<IActionResult> OnPostAsync()
         {
+            PopulateManufacturers();
+
             if (!ModelState.IsValid)
             {
-                ManufacturerOptions = new SelectList(_context.Manufacturers, "ManufacturerID", "Name");
                 return Page();
             }
 
@@ -72,4 +77,3 @@ namespace CIDM_3312_Final_Project.Pages.Weapons
         }
     }
 }
-
