@@ -1,0 +1,44 @@
+@page
+@model CIDM_3312_Final_Project.Pages.Weapons.IndexModel
+@{
+    ViewData["Title"] = "Weapons";
+}
+
+<h1>Weapons Catalog</h1>
+
+<p>
+    <a class="btn btn-primary" asp-page="Create">Add New Weapon</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Damage Rating</th>
+            <th>Ammo Type</th>
+            <th>Price</th>
+            <th>Stock Quantity</th>
+            <th>Manufacturer</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.WeaponList) {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.WeaponType</td>
+            <td>@item.DamageRating</td>
+            <td>@item.AmmoType</td>
+            <td>@item.Price</td>
+            <td>@item.StockQuantity</td>
+            <td>@item.Manufacturer?.Name</td>
+            <td>
+                <a asp-page="Edit" asp-route-id="@item.WeaponID">Edit</a> |
+                <a asp-page="Details" asp-route-id="@item.WeaponID">Details</a> |
+                <a asp-page="Delete" asp-route-id="@item.WeaponID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,38 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container mt-5">
+
+    <div class="text-center mb-4">
+        <h1 class="display-4">UNSC Arms Depot</h1>
+        <p class="lead">Browse a collection of weapons and manufacturers from across the Halo universe.</p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card text-white bg-primary mb-3">
+                <div class="card-header">Weapons Catalog</div>
+                <div class="card-body">
+                    <h5 class="card-title">View All Weapons</h5>
+                    <p class="card-text">Browse all available weapons, including Assault Rifles, Needlers, and more.</p>
+                    <a href="/Weapons" class="btn btn-light">Go to Weapons</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card text-white bg-success mb-3">
+                <div class="card-header">Manufacturers</div>
+                <div class="card-body">
+                    <h5 class="card-title">View Manufacturers</h5>
+                    <p class="card-text">Explore the organizations behind the weapons, from Misriah Armory to Assembly Forges.</p>
+                    <a href="/Manufacturers" class="btn btn-light">Go to Manufacturers</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+

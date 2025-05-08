@@ -1,0 +1,56 @@
+@page "{id:int}"
+@model CIDM_3312_Final_Project.Pages.Manufacturers.DetailsModel
+@{
+    ViewData["Title"] = "Manufacturer Details";
+}
+
+<h1>Manufacturer Details</h1>
+
+<div>
+    <h4>@Model.Manufacturer.Name</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">Faction</dt>
+        <dd class="col-sm-9">@Model.Manufacturer.Faction</dd>
+
+        <dt class="col-sm-3">Planet Of Origin</dt>
+        <dd class="col-sm-9">@Model.Manufacturer.PlanetOfOrigin</dd>
+
+        <dt class="col-sm-3">Year Founded</dt>
+        <dd class="col-sm-9">@Model.Manufacturer.YearFounded</dd>
+
+        <dt class="col-sm-3">Reputation Rating</dt>
+        <dd class="col-sm-9">@Model.Manufacturer.ReputationRating</dd>
+    </dl>
+</div>
+
+<h4>Weapons by @Model.Manufacturer.Name</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Damage Rating</th>
+            <th>Ammo Type</th>
+            <th>Price</th>
+            <th>Stock Quantity</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var weapon in Model.Weapons) {
+        <tr>
+            <td>@weapon.Name</td>
+            <td>@weapon.WeaponType</td>
+            <td>@weapon.DamageRating</td>
+            <td>@weapon.AmmoType</td>
+            <td>@weapon.Price</td>
+            <td>@weapon.StockQuantity</td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<p>
+    <a asp-page="Edit" asp-route-id="@Model.Manufacturer.ManufacturerID">Edit</a> |
+    <a asp-page="Index">Back to List</a>
+</p>

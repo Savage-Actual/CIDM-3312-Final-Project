@@ -1,0 +1,51 @@
+@page "{id:int}"
+@model CIDM_3312_Final_Project.Pages.Manufacturers.EditModel
+@{
+    ViewData["Title"] = "Edit Manufacturer";
+}
+
+<h1>Edit Manufacturer</h1>
+
+<h4>Manufacturer</h4>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form method="post">
+            <input type="hidden" asp-for="Manufacturer.ManufacturerID" />
+            <div class="form-group">
+                <label asp-for="Manufacturer.Name" class="control-label"></label>
+                <input asp-for="Manufacturer.Name" class="form-control" />
+                <span asp-validation-for="Manufacturer.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Manufacturer.Faction" class="control-label"></label>
+                <input asp-for="Manufacturer.Faction" class="form-control" />
+                <span asp-validation-for="Manufacturer.Faction" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Manufacturer.PlanetOfOrigin" class="control-label"></label>
+                <input asp-for="Manufacturer.PlanetOfOrigin" class="form-control" />
+                <span asp-validation-for="Manufacturer.PlanetOfOrigin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Manufacturer.YearFounded" class="control-label"></label>
+                <input asp-for="Manufacturer.YearFounded" class="form-control" />
+                <span asp-validation-for="Manufacturer.YearFounded" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Manufacturer.ReputationRating" class="control-label"></label>
+                <input asp-for="Manufacturer.ReputationRating" class="form-control" />
+                <span asp-validation-for="Manufacturer.ReputationRating" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" /> |
+                <a asp-page="Index">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

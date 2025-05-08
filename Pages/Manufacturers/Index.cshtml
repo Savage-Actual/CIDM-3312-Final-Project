@@ -1,0 +1,40 @@
+@page
+@model CIDM_3312_Final_Project.Pages.Manufacturers.IndexModel
+@{
+    ViewData["Title"] = "Manufacturers";
+}
+
+<h1>Manufacturers</h1>
+
+<p>
+    <a class="btn btn-primary" asp-page="Create">Create New Manufacturer</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Faction</th>
+            <th>Planet Of Origin</th>
+            <th>Year Founded</th>
+            <th>Reputation Rating</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.ManufacturerList) {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Faction</td>
+            <td>@item.PlanetOfOrigin</td>
+            <td>@item.YearFounded</td>
+            <td>@item.ReputationRating</td>
+            <td>
+                <a asp-page="Edit" asp-route-id="@item.ManufacturerID">Edit</a> |
+                <a asp-page="Details" asp-route-id="@item.ManufacturerID">Details</a> |
+                <a asp-page="Delete" asp-route-id="@item.ManufacturerID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
