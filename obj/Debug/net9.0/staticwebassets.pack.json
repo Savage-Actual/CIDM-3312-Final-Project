@@ -13,6 +13,26 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\wwwroot\\images\\concussionrifle.png",
+      "PackagePath": "staticwebassets\\images\\concussionrifle.png"
+    },
+    {
+      "Id": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\wwwroot\\images\\fuelrodcannon.png",
+      "PackagePath": "staticwebassets\\images\\fuelrodcannon.png"
+    },
+    {
+      "Id": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\wwwroot\\images\\gravityhammer.png",
+      "PackagePath": "staticwebassets\\images\\gravityhammer.png"
+    },
+    {
+      "Id": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\wwwroot\\images\\plasmalauncher.png",
+      "PackagePath": "staticwebassets\\images\\plasmalauncher.png"
+    },
+    {
+      "Id": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\wwwroot\\images\\rocketlauncher.png",
+      "PackagePath": "staticwebassets\\images\\rocketlauncher.png"
+    },
+    {
       "Id": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

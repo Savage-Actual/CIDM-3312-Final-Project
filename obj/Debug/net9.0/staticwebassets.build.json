@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fsDqQR4pKVx/y7zvGpIBP3LaC8M0MfTEpFIXpJG7VGw=",
+  "Hash": "JjfuSqO+Ml4PPHmJ5/ZHzNd6hWoNnBjQLrbhZzZTpkI=",
   "Source": "CIDM-3312-Final-Project",
   "BasePath": "_content/CIDM-3312-Final-Project",
   "Mode": "Default",
@@ -1443,6 +1443,111 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\wwwroot\\images\\concussionrifle.png",
+      "SourceId": "CIDM-3312-Final-Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\wwwroot\\",
+      "BasePath": "_content/CIDM-3312-Final-Project",
+      "RelativePath": "images/concussionrifle#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ni8bxgb8no",
+      "Integrity": "IU/hdbtO0wm/Ed8cKC9Ap2av0/wltgLkZGfUZ7cYZIc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\concussionrifle.png"
+    },
+    {
+      "Identity": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\wwwroot\\images\\fuelrodcannon.png",
+      "SourceId": "CIDM-3312-Final-Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\wwwroot\\",
+      "BasePath": "_content/CIDM-3312-Final-Project",
+      "RelativePath": "images/fuelrodcannon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h3t8tuegky",
+      "Integrity": "s2VQI9AwulXlfFfdFtNxAES1Bel4RwNpX/X432mFywA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\fuelrodcannon.png"
+    },
+    {
+      "Identity": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\wwwroot\\images\\gravityhammer.png",
+      "SourceId": "CIDM-3312-Final-Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\wwwroot\\",
+      "BasePath": "_content/CIDM-3312-Final-Project",
+      "RelativePath": "images/gravityhammer#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mw22td72n0",
+      "Integrity": "NvwPKDi+I6FiuAddaMUQC/+/+raQ5TGDeqtLhxqwStQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\gravityhammer.png"
+    },
+    {
+      "Identity": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\wwwroot\\images\\plasmalauncher.png",
+      "SourceId": "CIDM-3312-Final-Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\wwwroot\\",
+      "BasePath": "_content/CIDM-3312-Final-Project",
+      "RelativePath": "images/plasmalauncher#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lipui37d3p",
+      "Integrity": "rcrcu6dm09A2XCP9nseYm9D4Kp9GlneRRE5gF0DVKgc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\plasmalauncher.png"
+    },
+    {
+      "Identity": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\wwwroot\\images\\rocketlauncher.png",
+      "SourceId": "CIDM-3312-Final-Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\wwwroot\\",
+      "BasePath": "_content/CIDM-3312-Final-Project",
+      "RelativePath": "images/rocketlauncher#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eubouir6ab",
+      "Integrity": "9ueTuZhvM81+OGWgXCCVlcCOFz7AJEDotIhgCdRKaK4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\rocketlauncher.png"
     },
     {
       "Identity": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\wwwroot\\js\\site.js",
@@ -3916,6 +4021,416 @@
         {
           "Name": "integrity",
           "Value": "sha256-wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0="
+        }
+      ]
+    },
+    {
+      "Route": "images/concussionrifle.ni8bxgb8no.png",
+      "AssetFile": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\wwwroot\\images\\concussionrifle.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "373027"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IU/hdbtO0wm/Ed8cKC9Ap2av0/wltgLkZGfUZ7cYZIc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 20:41:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ni8bxgb8no"
+        },
+        {
+          "Name": "label",
+          "Value": "images/concussionrifle.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IU/hdbtO0wm/Ed8cKC9Ap2av0/wltgLkZGfUZ7cYZIc="
+        }
+      ]
+    },
+    {
+      "Route": "images/concussionrifle.png",
+      "AssetFile": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\wwwroot\\images\\concussionrifle.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "373027"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IU/hdbtO0wm/Ed8cKC9Ap2av0/wltgLkZGfUZ7cYZIc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 20:41:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IU/hdbtO0wm/Ed8cKC9Ap2av0/wltgLkZGfUZ7cYZIc="
+        }
+      ]
+    },
+    {
+      "Route": "images/fuelrodcannon.h3t8tuegky.png",
+      "AssetFile": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\wwwroot\\images\\fuelrodcannon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "464445"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s2VQI9AwulXlfFfdFtNxAES1Bel4RwNpX/X432mFywA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 20:34:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h3t8tuegky"
+        },
+        {
+          "Name": "label",
+          "Value": "images/fuelrodcannon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s2VQI9AwulXlfFfdFtNxAES1Bel4RwNpX/X432mFywA="
+        }
+      ]
+    },
+    {
+      "Route": "images/fuelrodcannon.png",
+      "AssetFile": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\wwwroot\\images\\fuelrodcannon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "464445"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s2VQI9AwulXlfFfdFtNxAES1Bel4RwNpX/X432mFywA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 20:34:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s2VQI9AwulXlfFfdFtNxAES1Bel4RwNpX/X432mFywA="
+        }
+      ]
+    },
+    {
+      "Route": "images/gravityhammer.mw22td72n0.png",
+      "AssetFile": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\wwwroot\\images\\gravityhammer.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "298443"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NvwPKDi+I6FiuAddaMUQC/+/+raQ5TGDeqtLhxqwStQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 20:36:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mw22td72n0"
+        },
+        {
+          "Name": "label",
+          "Value": "images/gravityhammer.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NvwPKDi+I6FiuAddaMUQC/+/+raQ5TGDeqtLhxqwStQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/gravityhammer.png",
+      "AssetFile": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\wwwroot\\images\\gravityhammer.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "298443"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NvwPKDi+I6FiuAddaMUQC/+/+raQ5TGDeqtLhxqwStQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 20:36:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NvwPKDi+I6FiuAddaMUQC/+/+raQ5TGDeqtLhxqwStQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/plasmalauncher.lipui37d3p.png",
+      "AssetFile": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\wwwroot\\images\\plasmalauncher.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "351237"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rcrcu6dm09A2XCP9nseYm9D4Kp9GlneRRE5gF0DVKgc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 20:43:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lipui37d3p"
+        },
+        {
+          "Name": "label",
+          "Value": "images/plasmalauncher.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rcrcu6dm09A2XCP9nseYm9D4Kp9GlneRRE5gF0DVKgc="
+        }
+      ]
+    },
+    {
+      "Route": "images/plasmalauncher.png",
+      "AssetFile": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\wwwroot\\images\\plasmalauncher.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "351237"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rcrcu6dm09A2XCP9nseYm9D4Kp9GlneRRE5gF0DVKgc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 20:43:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rcrcu6dm09A2XCP9nseYm9D4Kp9GlneRRE5gF0DVKgc="
+        }
+      ]
+    },
+    {
+      "Route": "images/rocketlauncher.eubouir6ab.png",
+      "AssetFile": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\wwwroot\\images\\rocketlauncher.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "331589"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9ueTuZhvM81+OGWgXCCVlcCOFz7AJEDotIhgCdRKaK4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 20:38:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eubouir6ab"
+        },
+        {
+          "Name": "label",
+          "Value": "images/rocketlauncher.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9ueTuZhvM81+OGWgXCCVlcCOFz7AJEDotIhgCdRKaK4="
+        }
+      ]
+    },
+    {
+      "Route": "images/rocketlauncher.png",
+      "AssetFile": "C:\\Users\\wpean\\Desktop\\SCHOOL\\CIDM 3312\\CIDM-3312-Final-Project\\wwwroot\\images\\rocketlauncher.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "331589"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9ueTuZhvM81+OGWgXCCVlcCOFz7AJEDotIhgCdRKaK4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 20:38:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9ueTuZhvM81+OGWgXCCVlcCOFz7AJEDotIhgCdRKaK4="
         }
       ]
     },

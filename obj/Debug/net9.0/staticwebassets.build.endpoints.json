@@ -897,6 +897,416 @@
       ]
     },
     {
+      "Route": "images/concussionrifle.ni8bxgb8no.png",
+      "AssetFile": "images/concussionrifle.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "373027"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IU/hdbtO0wm/Ed8cKC9Ap2av0/wltgLkZGfUZ7cYZIc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 20:41:05 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ni8bxgb8no"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IU/hdbtO0wm/Ed8cKC9Ap2av0/wltgLkZGfUZ7cYZIc="
+        },
+        {
+          "Name": "label",
+          "Value": "images/concussionrifle.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/concussionrifle.png",
+      "AssetFile": "images/concussionrifle.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "373027"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IU/hdbtO0wm/Ed8cKC9Ap2av0/wltgLkZGfUZ7cYZIc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 20:41:05 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IU/hdbtO0wm/Ed8cKC9Ap2av0/wltgLkZGfUZ7cYZIc="
+        }
+      ]
+    },
+    {
+      "Route": "images/fuelrodcannon.h3t8tuegky.png",
+      "AssetFile": "images/fuelrodcannon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "464445"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s2VQI9AwulXlfFfdFtNxAES1Bel4RwNpX/X432mFywA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 20:34:05 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h3t8tuegky"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s2VQI9AwulXlfFfdFtNxAES1Bel4RwNpX/X432mFywA="
+        },
+        {
+          "Name": "label",
+          "Value": "images/fuelrodcannon.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/fuelrodcannon.png",
+      "AssetFile": "images/fuelrodcannon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "464445"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s2VQI9AwulXlfFfdFtNxAES1Bel4RwNpX/X432mFywA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 20:34:05 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s2VQI9AwulXlfFfdFtNxAES1Bel4RwNpX/X432mFywA="
+        }
+      ]
+    },
+    {
+      "Route": "images/gravityhammer.mw22td72n0.png",
+      "AssetFile": "images/gravityhammer.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "298443"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NvwPKDi+I6FiuAddaMUQC/+/+raQ5TGDeqtLhxqwStQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 20:36:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mw22td72n0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NvwPKDi+I6FiuAddaMUQC/+/+raQ5TGDeqtLhxqwStQ="
+        },
+        {
+          "Name": "label",
+          "Value": "images/gravityhammer.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/gravityhammer.png",
+      "AssetFile": "images/gravityhammer.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "298443"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NvwPKDi+I6FiuAddaMUQC/+/+raQ5TGDeqtLhxqwStQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 20:36:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NvwPKDi+I6FiuAddaMUQC/+/+raQ5TGDeqtLhxqwStQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/plasmalauncher.lipui37d3p.png",
+      "AssetFile": "images/plasmalauncher.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "351237"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rcrcu6dm09A2XCP9nseYm9D4Kp9GlneRRE5gF0DVKgc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 20:43:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lipui37d3p"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rcrcu6dm09A2XCP9nseYm9D4Kp9GlneRRE5gF0DVKgc="
+        },
+        {
+          "Name": "label",
+          "Value": "images/plasmalauncher.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/plasmalauncher.png",
+      "AssetFile": "images/plasmalauncher.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "351237"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rcrcu6dm09A2XCP9nseYm9D4Kp9GlneRRE5gF0DVKgc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 20:43:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rcrcu6dm09A2XCP9nseYm9D4Kp9GlneRRE5gF0DVKgc="
+        }
+      ]
+    },
+    {
+      "Route": "images/rocketlauncher.eubouir6ab.png",
+      "AssetFile": "images/rocketlauncher.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "331589"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9ueTuZhvM81+OGWgXCCVlcCOFz7AJEDotIhgCdRKaK4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 20:38:03 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eubouir6ab"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9ueTuZhvM81+OGWgXCCVlcCOFz7AJEDotIhgCdRKaK4="
+        },
+        {
+          "Name": "label",
+          "Value": "images/rocketlauncher.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/rocketlauncher.png",
+      "AssetFile": "images/rocketlauncher.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "331589"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9ueTuZhvM81+OGWgXCCVlcCOFz7AJEDotIhgCdRKaK4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 20:38:03 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9ueTuZhvM81+OGWgXCCVlcCOFz7AJEDotIhgCdRKaK4="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "js/site.js.gz",
       "Selectors": [

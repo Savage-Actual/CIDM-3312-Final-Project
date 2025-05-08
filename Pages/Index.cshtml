@@ -12,9 +12,18 @@
 @for (int i = 0; i < Model.FeaturedWeapons.Count; i++)
 {
     var weapon = Model.FeaturedWeapons[i];
+    string bgImage = "/images/default_weapon_bg.jpg";
+
+    if (weapon.Name == "Fuel Rod Gun") bgImage = "/images/fuelrodcannon.png";
+    else if (weapon.Name == "Gravity Hammer") bgImage = "/images/gravityhammer.png";
+    else if (weapon.Name == "Rocket Launcher") bgImage = "/images/rocketlauncher.png";
+    else if (weapon.Name == "Concussion Rifle") bgImage = "/images/concussionrifle.png";
+    else if (weapon.Name == "Plasma Launcher") bgImage = "/images/plasmalauncher.png";
+
     <div class="carousel-item @(i == 0 ? "active" : "")">
-        <div class="d-flex justify-content-center align-items-center" style="height:300px; background-color: #e9ecef;">
-            <div class="text-center">
+        <div class="d-flex justify-content-center align-items-center text-white"
+             style="height:300px; background: url('@bgImage') center center / cover no-repeat;">
+            <div class="text-center bg-dark bg-opacity-50 p-3 rounded">
                 <h2>@weapon.Name</h2>
                 <p>Type: @weapon.WeaponType</p>
                 <p>Damage: @weapon.DamageRating</p>
